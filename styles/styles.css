@@ -52,33 +52,33 @@ body{
   width: 100vw;
   height: 100vh;
 }
+
+main{
+  max-width: 1000px;
+  height: 500px;
+  margin: 30px;
+}
+
 .container-text{
   background-color: hsl(0, 0%, 100%);
 }
 
-main{
-  width: 40vw;
-  height: 40vh; 
-}
-
 .container-img{
-  width: 20vw;
+ width: 50%;
 }
 
 .img-product{
   width: 100%;
   height: 100%;
-  border-top-left-radius: 5%;
-  border-bottom-left-radius: 5%;
+  border-radius: 5% 0 0 5%;
   object-fit: cover;
 }
 
 .container-text{
-  width: 20vw;
-  padding: 2em;
-  gap: 1.15em;
-  border-top-right-radius: 5%;
-  border-bottom-right-radius: 5%;
+  width: 50%;
+  padding: 0 5em 0 5em;
+  gap: 2.5em;
+  border-radius: 0 5% 5% 0;
 }
 
 .category{
@@ -124,27 +124,46 @@ main{
   width: 10px;
 }
 
-@media screen and (max-width:1250px) {
+@media screen and (max-width:750px) {
   main{
-    flex-direction: column;
-    width: 90vw;
-    height: 90vh;
+    flex-direction: column; 
+    margin: 0; 
+    align-items: center;
   }
   .container-img{
-    width: 90vw;
-    height: 35vh;
+    width: 80%;
+    height: 50%;
   }
   .img-product{
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+    border-radius: 5% 5% 0 0; 
+    
   }
   .container-text{
-    width: 90vw;
-    height: 55vh;
-    padding: 2em;
-    gap: 1.15em;
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: 5%;
-    border-top-right-radius: 0;
+    width: 80%;
+    height: 50%;
+    padding: 0.5em 2em 0.5em 2em;
+    gap: 0.25em;
+   border-radius: 0 0 5% 5%;
+  }
+  .category{
+    font-size: 10px;
+  }
+  
+  .title{
+    font-size: 25px;
+  }
+  
+  .paragraph{
+    font-size: 10px;
+    line-height: 1.20em;
+  }
+  .price1{
+    font-size: 25px;
+  }
+  .price2{
+    font-size: 10px;
+  }
+  .icon-cart{
+    width: 10px;
   }
 }
