@@ -1,16 +1,13 @@
 .box{
     box-sizing: border-box;
 }
-
 .flex{ 
   display: flex;
   justify-content: center;
 }
-
 .align-center{
   align-items: center;
 }
-
 .flex-column{
   flex-direction: column;
 }
@@ -28,7 +25,6 @@
   font-weight: 500;
   font-style: normal;
 }
-
 .montserrat-font-large{
     font-weight: 700;
 }
@@ -36,7 +32,6 @@
 .color-text{
   color: hsl(228, 12%, 48%);
 }
-
 .color-text2{
   color: hsl(158, 36%, 37%);
 }
@@ -54,19 +49,14 @@ body{
 }
 
 main{
-  max-width: 1000px;
+  max-width: 750px;
   height: 500px;
   margin: 30px;
-}
-
-.container-text{
-  background-color: hsl(0, 0%, 100%);
 }
 
 .container-img{
  width: 50%;
 }
-
 .img-product{
   width: 100%;
   height: 100%;
@@ -75,35 +65,31 @@ main{
 }
 
 .container-text{
+  background-color: hsl(0, 0%, 100%);
   width: 50%;
-  padding: 0 5em 0 5em;
-  gap: 2.5em;
+  padding: 0 4.5rem 0 4.5rem;
+  gap: 2rem;
   border-radius: 0 5% 5% 0;
 }
-
 .category{
-  letter-spacing: 0.25em;
+  letter-spacing: 0.25rem;
   font-size: 14px;
 }
-
 .title{
-  font-size: 30px;
+  font-size: 35px;
 }
-
 .paragraph{
   font-size: 14px;
-  line-height: 1.5em;
+  line-height: 1.5rem;
 }
 
 .container-price{
   display: flex;
-  gap: 1em;
+  gap: 1rem;
 }
-
 .price1{
-  font-size: 30px;
+  font-size: 35px;
 }
-
 .price2{
   font-size: 14px;
   text-decoration: line-through;
@@ -115,11 +101,9 @@ main{
   border: none;
   border-radius: 5%;
 }
-
 .button:hover{
   background-color: hsl(150, 30%, 30%);
 }
-
 .icon-cart{
   width: 10px;
 }
@@ -136,26 +120,23 @@ main{
   }
   .img-product{
     border-radius: 5% 5% 0 0; 
-    
   }
   .container-text{
     width: 80%;
     height: 50%;
-    padding: 0.5em 2em 0.5em 2em;
+    padding: 0.5rem 2rem 0.5rem 2rem;
     gap: 0.25em;
    border-radius: 0 0 5% 5%;
   }
   .category{
     font-size: 10px;
   }
-  
   .title{
     font-size: 25px;
   }
-  
   .paragraph{
     font-size: 10px;
-    line-height: 1.20em;
+    line-height: 1.20rem;
   }
   .price1{
     font-size: 25px;
